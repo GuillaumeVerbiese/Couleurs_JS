@@ -1,0 +1,55 @@
+body {
+  margin: 100px;
+  text-align: center;
+}
+
+button {
+  background: #000;
+  border: 0;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 1em 2em;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+#colors {
+  width: 28em;
+  margin: auto;
+}
+
+form {
+  overflow: hidden;
+}
+
+
+#colors-input {
+  font-size: 16px;
+  height: 3.8em;
+  width: 20em;
+  text-align: center;
+}
+
+#colors-input:focus {
+  background: #ddd;
+}
+
+#colors input,
+#colors button {
+  float: left;
+}
+
+#colors-list {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+#colors-error {
+  color: red;
+  margin: 1em;
+}
+
